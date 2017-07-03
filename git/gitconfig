@@ -10,3 +10,4 @@
 [alias]
     lol = log --oneline --decorate --all --graph
     lop = log --pretty=format:'%h %an %s'
+	shorty = status --short --branch

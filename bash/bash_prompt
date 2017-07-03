@@ -107,8 +107,10 @@ fi;
 PS1="\[\033]0;\W\007\]"; # working directory base name
 PS1+="\[${bold}\]"; # newline
 PS1+="[\[${userStyle}\]\u"; # username
+PS1+="\[${green}\]:";
+PS1+="\[${cyan}\]\h"; # host
 PS1+="\[${green}\]@";
-PS1+="\[${orange}\]\t\[${white}\]]"; # host
+PS1+="\[${orange}\]\t\[${white}\]]";
 PS1+="\[${reset}\]\[${white}\] in ";
 PS1+="\[${bold}\]\[${green}\]\W\[${reset}\]"; # working directory full path
 PS1+="\$(prompt_git \"\[${white}\] on \[${blue}\]\[${bold}\]\" \"\[${red}\]\")"; # Git repository details

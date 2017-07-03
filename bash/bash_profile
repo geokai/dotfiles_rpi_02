@@ -29,8 +29,8 @@ fi
 # prefs
 shopt -s histappend;
 HISTCONTROL="erasedups:ignoreboth"
-HISTIGNORE="clear:exit:cd:pwd:ls:la:ll:history"
-HISTSIZE="1000"
+HISTIGNORE="clear:exit:cd:pwd:ls:la:ll:lx:lf:ld:ls -l:history"
+HISTSIZE="2000"
 HISTFILESIZE="2000"
 
 # Autocorrect typos in path names when using `cd`
