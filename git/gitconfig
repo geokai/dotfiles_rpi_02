@@ -1,0 +1,13 @@
+[user]
+	name = George Kaimakis
+	email = geomatus@mac.com
+[color]
+	ui = auto
+[core]
+	editor = vim
+	excludesfile = /home/pi/.gitignore_global
+	autocrlf = input
+[alias]
+    lol = log --oneline --decorate --all --graph
+    lop = log --pretty=format:'%h %an %s'
+	shorty = status --short --branch

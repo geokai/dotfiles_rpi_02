@@ -1,0 +1,14 @@
+
+# system:
+.DS_Store
+.Trashes
+.Spotlight-V100
+
+# vim related:
+*.swp
+
+# other text types:
+*~
+*.[oa]
+_*
+*.pyc
