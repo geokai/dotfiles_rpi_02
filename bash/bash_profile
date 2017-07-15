@@ -67,3 +67,7 @@ HISTFILESIZE="2000"
 
 export EDITOR="vim"
 export VISUAL="vim"
+
+# export to pythonpath:
+export PYTHONPATH="~/bin/local/lib/modules"
+
