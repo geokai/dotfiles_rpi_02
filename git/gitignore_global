@@ -12,3 +12,6 @@
 *.[oa]
 _*
 *.pyc
+
+# files:
+tags
