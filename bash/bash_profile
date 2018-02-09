@@ -71,3 +71,5 @@ export VISUAL="vim"
 # export to pythonpath:
 export PYTHONPATH="/home/pi/bin/local/lib/modules"
 
+# added by Berryconda3 installer
+export PATH="/home/pi/berryconda3/bin:$PATH"
