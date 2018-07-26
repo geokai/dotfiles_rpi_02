@@ -73,3 +73,8 @@ export PYTHONPATH="/home/pi/bin/local/lib/modules"
 
 # added by Berryconda3 installer
 export PATH="/home/pi/berryconda3/bin:$PATH"
+
+# added for virtualenvwrapper functionallity:
+# export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python
+# export WORKON_HOME="$HOME/.virtualenvs"
+# source /usr/local/bin/virtualenvwrapper.sh
