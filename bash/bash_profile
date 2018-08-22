@@ -65,14 +65,14 @@ HISTFILESIZE="2000"
 # Add `killall` tab completion for common apps
 #complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes SystemUIServer Terminal Twitter" killall;
 
-export EDITOR="vim"
-export VISUAL="vim"
+export EDITOR="nvim"
+export VISUAL="nvim"
 
 # export to pythonpath:
 export PYTHONPATH="/home/pi/bin/local/lib/modules"
 
 # added by Berryconda3 installer
-export PATH="/home/pi/berryconda3/bin:$PATH"
+# export PATH="/home/pi/berryconda3/bin:$PATH"
 
 # added for virtualenvwrapper functionallity:
 # export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python
