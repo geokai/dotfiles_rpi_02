@@ -32,23 +32,18 @@ alias grep='grep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
 
-# Show/hide hidden files in Finder:
-alias show="defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder"
-alias hide="defaults write com.apple.finder AppleShowAllFiles -bool false && killall Finder"
-
-# Hide/show all desktop icons (useful when presenting):
-alias hidedesktop="defaults write com.apple.finder CreateDesktop -bool false && killall Finder"
-alias showdesktop="defaults write com.apple.finder CreateDesktop -bool true && killall Finder"
-
-# Lock the screen (when going AFK):
-alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
-
 # Reload the shell (i.e. invoke as a login shell):
 alias reload="exec $SHELL -l"
 
 # git commands:
 alias glog="git log --oneline --decorate --all --graph"
 alias plog="git log --pretty=format:'%h %an %s'"
+
+# tmux shorties:
+alias tn='tmux new-session -s'
+alias ta='tmux attach -t'
+alias tl='tmux ls'
+alias tk='tmux kill-session -t'
 
 # os functionallity:
 # clipboard
