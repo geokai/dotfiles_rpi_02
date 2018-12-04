@@ -33,6 +33,9 @@ HISTIGNORE="clear:exit:cd:pwd:ls:la:ll:lx:lf:ld:ls -l:history"
 HISTSIZE="2000"
 HISTFILESIZE="2000"
 
+# Disable CTRL-D, avoid accidently terminating shell
+set -o ignoreeof
+
 # Autocorrect typos in path names when using `cd`
 #shopt -s cdspell;
 

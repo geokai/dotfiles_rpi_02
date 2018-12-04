@@ -1,1 +1,6 @@
 [ -n "$PS1" ] && source ~/.bash_profile;
+
+how_in() {
+    where="$1"; shift
+    IFS=+ curl "cht.sh/$shere/$*"
+}
